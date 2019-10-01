@@ -8,7 +8,7 @@ class BaseLayout extends Component {
         return (
             <div
                 id="base-layout"
-                className="flex flex-col justify-between items-stretch h-screen px-20">
+                className="flex flex-col justify-between items-stretch h-screen">
                 <Navbar className="flex-initial" />
                 <div className="flex-initial">
                     {this.props.children}
